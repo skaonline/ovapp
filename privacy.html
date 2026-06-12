@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy – Le mie uova</title>
+  <title>Privacy Policy – OvApp</title>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -17,19 +17,39 @@
     h2 { color: #2c2c2c; font-size: 1.2em; margin-top: 2em; }
     a  { color: #007aff; }
     p  { margin: 0.6em 0; }
+    .lang-divider {
+      border: none;
+      border-top: 2px solid #e0e0e0;
+      margin: 3em 0;
+    }
+    .lang-label {
+      display: inline-block;
+      background: #f0f0f0;
+      color: #555;
+      font-size: 0.8em;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      padding: 3px 10px;
+      border-radius: 4px;
+      margin-bottom: 1.5em;
+      text-transform: uppercase;
+    }
     footer { margin-top: 3em; font-size: 0.85em; color: #888; }
   </style>
 </head>
 <body>
 
+<!-- ── ITALIANO ─────────────────────────────────────────────────────────── -->
+<span class="lang-label">Italiano</span>
+
 <h1>Privacy Policy</h1>
-<p><strong>App:</strong> Le mie uova<br />
+<p><strong>App:</strong> OvApp<br />
 <strong>Sviluppatore:</strong> michelem<br />
 <strong>Ultimo aggiornamento:</strong> 12 giugno 2025</p>
 
 <h2>1. Introduzione</h2>
 <p>
-  La presente Privacy Policy descrive come l'app <em>Le mie uova</em> gestisce i dati
+  La presente Privacy Policy descrive come l'app <em>OvApp</em> gestisce i dati
   durante il suo utilizzo. La nostra priorità è la massima trasparenza: l'app non
   raccoglie né trasmette dati personali ai server dello sviluppatore.
 </p>
@@ -42,15 +62,12 @@
   condivisi con terze parti da parte dello sviluppatore.
 </p>
 
-<h2>3. Posizione geografica</h2>
+<h2>3. Dati meteo</h2>
 <p>
-  L'app può richiedere l'accesso alla posizione del dispositivo <strong>solo se
-  l'utente attiva la funzione meteo</strong> nelle impostazioni. La posizione
-  (latitudine e longitudine approssimative) viene inviata al servizio
-  <a href="https://open-meteo.com" target="_blank">Open-Meteo</a> per recuperare
-  le previsioni meteorologiche. Open-Meteo è un servizio europeo
-  conforme al GDPR che non archivia dati personali degli utenti finali.
-  La posizione non viene mai trasmessa allo sviluppatore dell'app.
+  Se l'utente attiva la funzione meteo, le coordinate geografiche del pollaio
+  (inserite manualmente nelle impostazioni) vengono inviate a un servizio meteo
+  di terze parti per recuperare le previsioni. Nessun dato di posizione del
+  dispositivo viene raccolto o trasmesso.
 </p>
 
 <h2>4. Pubblicità (Google AdMob)</h2>
@@ -63,8 +80,7 @@
 <p>
   All'avvio dell'app, l'utente può scegliere se ricevere annunci personalizzati
   o meno. Questa preferenza può essere modificata in qualsiasi momento nelle
-  impostazioni dell'app. La scelta viene rispettata tramite il flag
-  <em>requestNonPersonalizedAdsOnly</em> di AdMob.
+  impostazioni dell'app.
 </p>
 <p>
   Per maggiori informazioni su come Google utilizza i dati, consulta la
@@ -112,6 +128,96 @@
 <p>
   Eventuali aggiornamenti alla Privacy Policy saranno pubblicati su questa pagina.
   L'uso continuato dell'app dopo le modifiche implica l'accettazione della nuova policy.
+</p>
+
+
+<!-- ── ENGLISH ──────────────────────────────────────────────────────────── -->
+<hr class="lang-divider" />
+<span class="lang-label">English</span>
+
+<h1>Privacy Policy</h1>
+<p><strong>App:</strong> OvApp<br />
+<strong>Developer:</strong> michelem<br />
+<strong>Last updated:</strong> June 12, 2025</p>
+
+<h2>1. Introduction</h2>
+<p>
+  This Privacy Policy describes how the <em>OvApp</em> application handles data
+  during its use. Our priority is full transparency: the app does not collect or
+  transmit personal data to the developer's servers.
+</p>
+
+<h2>2. Locally stored data</h2>
+<p>
+  All data entered by the user (egg counts, number of hens, reminders, settings)
+  is stored <strong>exclusively on the device</strong> via AsyncStorage. This data
+  is never sent to external servers or shared with third parties by the developer.
+</p>
+
+<h2>3. Weather data</h2>
+<p>
+  If the user enables the weather feature, the geographic coordinates of the
+  chicken coop (entered manually in settings) are sent to a third-party weather
+  service to retrieve forecasts. No device location data is collected or transmitted.
+</p>
+
+<h2>4. Advertising (Google AdMob)</h2>
+<p>
+  The app displays advertisements through <strong>Google AdMob</strong>, a service
+  by Google LLC. AdMob may collect and use device data (including advertising
+  identifiers, IP address, and usage data) to show relevant ads.
+</p>
+<p>
+  When the app is first launched, the user can choose whether to receive
+  personalized ads or not. This preference can be changed at any time in the
+  app settings.
+</p>
+<p>
+  For more information on how Google uses data, please see
+  <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.
+</p>
+
+<h2>5. Notifications</h2>
+<p>
+  The app may send local notifications (reminders) if the user grants permission.
+  Notifications are generated and managed entirely on the device, without
+  involving external servers.
+</p>
+
+<h2>6. Backup and data import</h2>
+<p>
+  The backup feature exports app data to a JSON file saved locally on the device.
+  The file remains under the user's full control and is never uploaded to the
+  developer's servers.
+</p>
+
+<h2>7. Children's data</h2>
+<p>
+  The app is not intended for children under the age of 13 and does not knowingly
+  collect personal data from minors.
+</p>
+
+<h2>8. User rights (GDPR)</h2>
+<p>
+  Since all app data is stored locally on the device, the user has full control
+  over it at all times:
+</p>
+<ul>
+  <li><strong>Access and portability:</strong> via the built-in backup feature.</li>
+  <li><strong>Deletion:</strong> by uninstalling the app or clearing app data from device settings.</li>
+  <li><strong>Ad preference:</strong> adjustable at any time in the app settings.</li>
+</ul>
+
+<h2>9. Contact</h2>
+<p>
+  For any privacy-related questions, please contact:<br />
+  <a href="mailto:ovapp.support@gmail.com">ovapp.support@gmail.com</a>
+</p>
+
+<h2>10. Changes to this policy</h2>
+<p>
+  Any updates to this Privacy Policy will be published on this page.
+  Continued use of the app after changes implies acceptance of the updated policy.
 </p>
 
 <footer>
