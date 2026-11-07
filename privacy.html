@@ -45,21 +45,25 @@
 <h1>Privacy Policy</h1>
 <p><strong>App:</strong> OvApp<br />
 <strong>Sviluppatore:</strong> MimaApp<br />
-<strong>Ultimo aggiornamento:</strong> 14 giugno 2026</p>
+<strong>Ultimo aggiornamento:</strong> 7 novembre 2026</p>
 
 <h2>1. Introduzione</h2>
 <p>
   La presente Privacy Policy descrive come l'app <em>OvApp</em> gestisce i dati
-  durante il suo utilizzo. La nostra priorità è la massima trasparenza: l'app non
-  raccoglie né trasmette dati personali ai server dello sviluppatore.
+  durante il suo utilizzo. La nostra priorità è la massima trasparenza: i dati che
+  inserisci restano sul telefono. Escono dall'app solo i dati descritti qui sotto:
+  la posizione per il meteo, i dati tecnici per la pubblicità, in caso di errore
+  una segnalazione tecnica (sezione 7) e il controllo di autenticità (sezione 8).
 </p>
 
 <h2>2. Dati archiviati localmente</h2>
 <p>
-  Tutti i dati inseriti dall'utente (conteggio uova, numero di galline, promemoria,
-  impostazioni) sono archiviati <strong>esclusivamente nella memoria locale del
-  dispositivo</strong>. Questi dati non vengono mai inviati a server esterni né
-  condivisi con terze parti da parte dello sviluppatore.
+  Tutti i dati inseriti dall'utente (conteggio uova, galline, promemoria, ordini con
+  i nomi e i numeri di telefono delle persone, spese, impostazioni) sono archiviati
+  <strong>esclusivamente nella memoria locale del dispositivo</strong>. Questi dati
+  non vengono mai inviati a server esterni né condivisi con terze parti da parte
+  dello sviluppatore. I pulsanti «Chiama» e «WhatsApp» degli ordini aprono l'app del
+  telefono o WhatsApp con il numero della persona: OvApp non invia nulla da sé.
 </p>
 
 <h2>3. Dati meteo e posizione</h2>
@@ -91,9 +95,10 @@
   mostrare annunci pertinenti.
 </p>
 <p>
-  All'avvio dell'app, l'utente può scegliere se ricevere annunci personalizzati
-  o meno. Questa preferenza può essere modificata in qualsiasi momento nelle
-  impostazioni dell'app.
+  Nei paesi in cui è richiesto (Unione Europea, Regno Unito), al primo avvio
+  compare il modulo di consenso di Google, dove si sceglie se ricevere annunci
+  personalizzati. La scelta si cambia in qualsiasi momento da
+  Impostazioni › Dati e privacy › «Gestisci il consenso annunci».
 </p>
 <p>
   Per maggiori informazioni su come Google utilizza i dati, consulta la
@@ -114,13 +119,64 @@
   e non viene mai caricato su server dello sviluppatore.
 </p>
 
-<h2>7. Dati dei minori</h2>
+<h2 id="segnalazioni-errori">7. Segnalazioni degli errori (Sentry)</h2>
+<p>
+  Se l'app si chiude per un errore o incontra un errore imprevisto, invia una
+  segnalazione tecnica a <strong>Sentry</strong> (Functional Software, Inc.), un
+  servizio che raccoglie le segnalazioni degli errori per gli sviluppatori. Le
+  segnalazioni sono conservate nell'Unione Europea, in Germania.
+</p>
+<p>Una segnalazione contiene:</p>
+<ul>
+  <li>l'errore e il punto del codice dell'app in cui è avvenuto;</li>
+  <li>il modello del telefono, la versione di Android, la versione dell'app, la
+  lingua, il fuso orario e dati tecnici come la memoria libera e la batteria;</li>
+  <li>un breve elenco di eventi tecnici subito prima dell'errore, per esempio
+  l'app che torna in primo piano;</li>
+  <li>un codice casuale che identifica l'installazione dell'app, non la persona:
+  serve a capire se più errori vengono dallo stesso telefono;</li>
+  <li>il paese e la città da cui parte la segnalazione, stimati dalla connessione
+  al momento dell'invio. L'indirizzo IP non viene conservato.</li>
+</ul>
+<p>
+  Una segnalazione <strong>non contiene</strong> i dati che inserisci nell'app
+  (uova, galline, nomi e numeri di telefono delle persone, ordini, spese, note),
+  i nomi dei file, ciò che tocchi sullo schermo, immagini dello schermo,
+  l'indirizzo IP (ne abbiamo spento la conservazione) né l'identificativo
+  pubblicitario.
+</p>
+<p>
+  Le segnalazioni servono solo a trovare e correggere i difetti, non vengono
+  condivise con nessun altro e Sentry le cancella da sé dopo al massimo 90 giorni.
+</p>
+
+<h2 id="controllo-autenticita">8. Controllo di autenticità (Google Play Integrity)</h2>
+<p>
+  Per proteggere l'app dalle copie modificate, una volta ogni 30 giorni l'app
+  chiede a Google Play un certificato che attesta che l'app è quella originale
+  scaricata da Google Play e che il telefono è certificato. Il certificato viene
+  inviato al nostro server (Cloudflare, Inc., che lo esegue per nostro conto) e
+  decifrato da Google.
+</p>
+<p>Al nostro server arrivano solo:</p>
+<ul>
+  <li>un codice casuale creato dall'app, che identifica l'installazione e non la persona;</li>
+  <li>il certificato di Google e l'esito della verifica;</li>
+  <li>la versione dell'app.</li>
+</ul>
+<p>
+  Non arriva <strong>nessun dato</strong> che inserisci nell'app. L'esito non
+  impedisce mai di usare l'app: serve solo a sapere se circolano copie non
+  originali. Il codice casuale si cancella disinstallando l'app.
+</p>
+
+<h2>9. Dati dei minori</h2>
 <p>
   L'app non è destinata a bambini di età inferiore ai 13 anni e non raccoglie
   consapevolmente dati personali di minori.
 </p>
 
-<h2>8. Diritti degli utenti (GDPR)</h2>
+<h2>10. Diritti degli utenti (GDPR)</h2>
 <p>
   Poiché tutti i dati applicativi sono archiviati localmente sul dispositivo,
   l'utente ha pieno controllo su di essi in qualsiasi momento:
@@ -128,16 +184,16 @@
 <ul>
   <li><strong>Accesso e portabilità:</strong> tramite la funzione di backup integrata nell'app.</li>
   <li><strong>Cancellazione:</strong> disinstallando l'app o cancellando i dati dell'app dalle impostazioni del dispositivo.</li>
-  <li><strong>Preferenza annunci:</strong> modificabile in qualsiasi momento nelle impostazioni dell'app.</li>
+  <li><strong>Preferenza annunci:</strong> modificabile in qualsiasi momento da Impostazioni › Dati e privacy.</li>
 </ul>
 
-<h2>9. Contatti</h2>
+<h2>11. Contatti</h2>
 <p>
   Per qualsiasi domanda relativa alla privacy, puoi scrivere a:<br />
   <a href="mailto:ovapp.support@gmail.com">ovapp.support@gmail.com</a>
 </p>
 
-<h2>10. Modifiche alla presente policy</h2>
+<h2>12. Modifiche alla presente policy</h2>
 <p>
   Eventuali aggiornamenti alla Privacy Policy saranno pubblicati su questa pagina.
   L'uso continuato dell'app dopo le modifiche implica l'accettazione della nuova policy.
@@ -151,20 +207,25 @@
 <h1>Privacy Policy</h1>
 <p><strong>App:</strong> OvApp<br />
 <strong>Developer:</strong> MimaApp<br />
-<strong>Last updated:</strong> June 14, 2026</p>
+<strong>Last updated:</strong> November 7, 2026</p>
 
 <h2>1. Introduction</h2>
 <p>
   This Privacy Policy describes how the <em>OvApp</em> application handles data
-  during its use. Our priority is full transparency: the app does not collect or
-  transmit personal data to the developer's servers.
+  during its use. Our priority is full transparency: the data you enter stays on
+  your phone. The only data that leaves the app is described below: the location
+  for the weather, technical data for advertising, a technical error report if an
+  error occurs (section 7) and the authenticity check (section 8).
 </p>
 
 <h2>2. Locally stored data</h2>
 <p>
-  All data entered by the user (egg counts, number of hens, reminders, settings)
-  is stored <strong>exclusively in the device's local storage</strong>. This data
-  is never sent to external servers or shared with third parties by the developer.
+  All data entered by the user (egg counts, hens, reminders, orders with people's
+  names and phone numbers, expenses, settings) is stored <strong>exclusively in the
+  device's local storage</strong>. This data is never sent to external servers or
+  shared with third parties by the developer. The "Call" and "WhatsApp" buttons in
+  orders open the phone app or WhatsApp with the person's number: OvApp itself
+  sends nothing.
 </p>
 
 <h2>3. Weather and location data</h2>
@@ -193,9 +254,10 @@
   identifiers, IP address, and usage data) to show relevant ads.
 </p>
 <p>
-  When the app is first launched, the user can choose whether to receive
-  personalized ads or not. This preference can be changed at any time in the
-  app settings.
+  In the countries where it is required (European Union, United Kingdom),
+  Google's consent form appears on first launch, where you choose whether to
+  receive personalized ads. You can change your choice at any time from
+  Settings › Data &amp; privacy › "Manage ad consent".
 </p>
 <p>
   For more information on how Google uses data, please see
@@ -216,13 +278,63 @@
   developer's servers.
 </p>
 
-<h2>7. Children's data</h2>
+<h2 id="error-reports">7. Error reports (Sentry)</h2>
+<p>
+  If the app crashes or runs into an unexpected error, it sends a technical
+  report to <strong>Sentry</strong> (Functional Software, Inc.), a service that
+  collects error reports for developers. Reports are stored in the European
+  Union, in Germany.
+</p>
+<p>A report contains:</p>
+<ul>
+  <li>the error, and where in the app's code it happened;</li>
+  <li>the phone model, the Android version, the app version, the language, the
+  time zone, and technical details such as free memory and battery;</li>
+  <li>a short list of technical events just before the error, for example the
+  app coming back to the foreground;</li>
+  <li>a random code that identifies the installation of the app, not the person:
+  it tells us whether several errors come from the same phone;</li>
+  <li>the country and city the report is sent from, estimated from the
+  connection when it is sent. The IP address itself is not stored.</li>
+</ul>
+<p>
+  A report <strong>does not contain</strong> the data you enter in the app
+  (eggs, hens, people's names and phone numbers, orders, expenses, notes), file
+  names, what you tap on the screen, screenshots, your IP address (we have
+  turned off storing it) or the advertising identifier.
+</p>
+<p>
+  Reports are used only to find and fix bugs, are not shared with anyone else,
+  and are deleted automatically by Sentry after at most 90 days.
+</p>
+
+<h2 id="authenticity-check">8. Authenticity check (Google Play Integrity)</h2>
+<p>
+  To protect the app from modified copies, once every 30 days the app asks
+  Google Play for a certificate confirming that the app is the original one
+  downloaded from Google Play and that the phone is certified. The certificate
+  is sent to our server (Cloudflare, Inc., which runs it on our behalf) and
+  decrypted by Google.
+</p>
+<p>Our server receives only:</p>
+<ul>
+  <li>a random code created by the app, which identifies the installation, not the person;</li>
+  <li>Google's certificate and the result of the check;</li>
+  <li>the app version.</li>
+</ul>
+<p>
+  It receives <strong>none of the data</strong> you enter in the app. The result
+  never stops you from using the app: it only tells us whether unofficial copies
+  are circulating. The random code is deleted when you uninstall the app.
+</p>
+
+<h2>9. Children's data</h2>
 <p>
   The app is not intended for children under the age of 13 and does not knowingly
   collect personal data from minors.
 </p>
 
-<h2>8. User rights (GDPR)</h2>
+<h2>10. User rights (GDPR)</h2>
 <p>
   Since all app data is stored locally on the device, the user has full control
   over it at all times:
@@ -230,16 +342,16 @@
 <ul>
   <li><strong>Access and portability:</strong> via the built-in backup feature.</li>
   <li><strong>Deletion:</strong> by uninstalling the app or clearing app data from device settings.</li>
-  <li><strong>Ad preference:</strong> adjustable at any time in the app settings.</li>
+  <li><strong>Ad preference:</strong> adjustable at any time from Settings › Data &amp; privacy.</li>
 </ul>
 
-<h2>9. Contact</h2>
+<h2>11. Contact</h2>
 <p>
   For any privacy-related questions, please contact:<br />
   <a href="mailto:ovapp.support@gmail.com">ovapp.support@gmail.com</a>
 </p>
 
-<h2>10. Changes to this policy</h2>
+<h2>12. Changes to this policy</h2>
 <p>
   Any updates to this Privacy Policy will be published on this page.
   Continued use of the app after changes implies acceptance of the updated policy.
